@@ -29,7 +29,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'Azure Connection'
+    azureResourceManagerConnection: 
     subscriptionId: 'cbd438a0-2fb3-472a-a53d-d1aedcd1e0af'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'rg-lod'
